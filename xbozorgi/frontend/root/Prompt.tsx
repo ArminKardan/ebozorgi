@@ -24,7 +24,6 @@ import LoginByEmailForm from '../components/login/LoginByEmailForm'
 import { UnitName } from '@/common/dynamic'
 import { langType } from '@/common/SiteConfig'
 import ProfileImage from '../components/qecomps/ProfileImage'
-import TextBox from '../components/qecomps/TextBox'
 
 declare global {
   var crossstyles: CrossStyles
@@ -616,15 +615,8 @@ export default (props) => {
         setState({})
         window["pickerresolve"](null)
       }}>
-      <TextBox defaultValue={state.search} on={txt => {
-        clearTimeout(global.cpickerprompt)
-        global.cpickerprompt = setTimeout(() => {
-          setState({ ...state, search: txt })
-        }, 100);
-      }} />
-      <br-x />
       <div style={{ maxHeight: 400, overflowX: "scroll" }}>
-        {(state.items).filter(st => (!state.search) || (st.title1 || "").includes(state.search) || (st.title2 || "").includes(state.search)).map(st => {
+        {(state.items).map(st => {
 
           let rightic = null
           if (typeof st.righticon != "string" && st.righticon) {

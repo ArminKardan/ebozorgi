@@ -139,7 +139,7 @@ export default function App({ Component, pageProps }) {
         <Prompt />
         <Component {...props} />
       </div>
-      <QELoader />
+      {/* <QELoader /> */}
     </Context.Provider>
   )
 }
