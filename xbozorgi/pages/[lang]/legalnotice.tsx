@@ -35,7 +35,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
               1. Seller Information
             </h2>
             <p>
-              <strong>Name:</strong> B
+              <strong>Name:</strong> Asma Bozorgi
               <br />
               <strong>Email:</strong>{" "}
               <a
