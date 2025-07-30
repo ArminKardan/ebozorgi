@@ -15,7 +15,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
           <div className="about-image">
             <img
               src="https://cdn.ituring.ir/qeupload/mxjpqoAYwanzTCMcfYXx/zo916chuftcv9ch6f4xrjb.webp"
-              alt="About Nazli Sadeghi"
+              alt="About Bozorgi Jewelry"
             />
           </div>
           <div className="about-text">

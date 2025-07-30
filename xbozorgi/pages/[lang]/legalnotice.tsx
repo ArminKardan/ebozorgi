@@ -27,7 +27,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
         <div className="space-y-6 text-base leading-7">
           <p>
             This Distance Sales Agreement is made between the Customer ("Buyer")
-            and Nazlı Sadeghi ("Seller").
+            and Bozorgi Jewelry ("Seller").
           </p>
 
           <section>
@@ -35,17 +35,17 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
               1. Seller Information
             </h2>
             <p>
-              <strong>Name:</strong> Nazlı Sadeghi
+              <strong>Name:</strong> B
               <br />
               <strong>Email:</strong>{" "}
               <a
-                href="mailto:info@nazlisadeghi.com"
+                href="mailto:bozorgijewelryinfo@yahoo.com"
                 className="text-blue-600 underline"
               >
-                info@nazlisadeghi.com
+                bozorgijewelryinfo@yahoo.com
               </a>
               <br />
-              <strong>Phone:</strong> 11111111
+              <strong>Phone:</strong> +1 (202) 908-8993
             </p>
           </section>
 
@@ -86,10 +86,10 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
               days of receiving the product without giving any reason. To
               initiate a return, contact:{" "}
               <a
-                href="mailto:info@nazlisadeghi.com"
+                href="mailto:bozorgijewelryinfo@yahoo.com"
                 className="text-blue-600 underline"
               >
-                info@nazlisadeghi.com
+                bozorgijewelryinfo@yahoo.com
               </a>
               .
             </p>
