@@ -91,7 +91,7 @@ const collections = [
   },
   {
     id: "kinn-classics",
-    title: "Kinn Classics",
+    title: "AB Classics",
     products: [
       {
         title: " June Round Stud Earrings Diamond",

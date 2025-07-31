@@ -20,7 +20,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
           </div>
           <div className="about-text">
             <h1>About</h1>
-            <h2>Kinn</h2>
+            <h2>AB Jewelry</h2>
             <p>
               Founded in 2015, Asma Bozorgi was born from a passion for detail,
               elegance, and handcrafted artistry. In our atelier, each garment
