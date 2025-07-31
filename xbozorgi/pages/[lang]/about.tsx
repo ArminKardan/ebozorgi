@@ -14,15 +14,15 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
         <div className="about-container" style={{ direction: "ltr" }}>
           <div className="about-image">
             <img
-              src="https://cdn.ituring.ir/qeupload/mxjpqoAYwanzTCMcfYXx/zo916chuftcv9ch6f4xrjb.webp"
-              alt="About Bozorgi Jewelry"
+              src="\kinnpic\About_Page.webp"
+              alt="About Asma Bozorgi"
             />
           </div>
           <div className="about-text">
             <h1>About</h1>
             <h2>Kinn</h2>
             <p>
-              Founded in 2015, Kinn was born from a passion for detail,
+              Founded in 2015, Asma Bozorgi was born from a passion for detail,
               elegance, and handcrafted artistry. In our atelier, each garment
               is created with care and precision—from intricate beadwork and
               delicate hand-finishing to modern laser cuts that add a unique

@@ -7,9 +7,9 @@ import { useState } from "react"
 export default (p) => Component(p, Page)
 
 const images = [
-  "https://cdn.ituring.ir/qeupload/iT1R3mpqnf2rr6zpjE7K/umrwgposqahfl6t04mknrf.jpg",
-  "https://cdn.ituring.ir/qeupload/iT1R3mpqnf2rr6zpjE7K/lnezhild8rnh4w4bmc0rsg.jpg",
-  "https://cdn.ituring.ir/qeupload/iT1R3mpqnf2rr6zpjE7K/uglee4wb76nrl0ewsv7byf.jpg",
+  "/kinnpic/kinnring.jpg",
+  "/kinnpic/kinn_14k_gold_fine_jewelry_madison_diamond_tennis_bracelet_YG1 - Copy.jpg",
+  "/kinnpic/kinn_14k_gold_fine_jewelry_diana_diamond_tennis_necklace_white_gold_aa0ebfd3-d42b-4637-abb3-1051129cf76c - Copy.jpg",
 ]
 
 const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onLoad, onConnected, dies, isFront, z) => {

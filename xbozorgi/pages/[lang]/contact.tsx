@@ -17,34 +17,34 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
       <w-cc className="contact-container">
         <c-cc className="contact-media">
           <img
-            src="https://cdn.ituring.ir/qeupload/mxjpqoAYwanzTCMcfYXx/27fm0wrfzmwt5bsuvtlzyf.png"
+            src="/kinnpic/Phone_icon.png"
             alt="social media"
           />
 
-          <p><a href="tel:+4733378901"></a> Phone</p>
+          <p><a href="tel:+1 (202) 908-8993"></a> Phone</p>
         </c-cc>
         <c-cc className="contact-media">
           <img
-            src="https://cdn.ituring.ir/qepal/whatsapp.webp"
+            src="/kinnpic/whatsapp.webp"
             alt="social media"
           />
-
+          <a href="tel:+1 (202) 908-8993"></a>
           <p>Whatsapp</p>
         </c-cc>
         <c-cc className="contact-media">
           <img
-            src="https://cdn.ituring.ir/qepal/telegram2.png"
+            src="/kinnpic/telegram2.png"
             alt="social media"
           />
-
+          <a href="tel:+1 (202) 908-8993"></a>
           <p>Telegram</p>
         </c-cc>
         <c-cc className="contact-media">
           <img
-            src="https://cdn.ituring.ir/qepal/insta.svg"
+            src="/kinnpic/insta.svg"
             alt="social media"
           />
-
+          <a href="https://www.instagram.com/bozorgi.jewelry"></a>
           <p>Instagram</p>
         </c-cc>
 

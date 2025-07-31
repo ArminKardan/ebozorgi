@@ -34,24 +34,24 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
 
         <div className="footer-links">
           <ul>
-            <li onClick={() => Router.push("/fa/about")}>About</li>
-            <li onClick={() => Router.push("/fa/shop2")}>All collections</li>
-            <li onClick={() => Router.push("/fa/contact")}>Contact</li>
-            <li onClick={() => Router.push("/fa/shop2")}>Shop</li>
+            <li onClick={() => Router.push(z.root+"/about")}>About</li>
+            <li onClick={() => Router.push(z.root + "/shop2")}>All collections</li>
+            <li onClick={() => Router.push(z.root+"/contact")}>Contact</li>
+            <li onClick={() => Router.push(z.root+"/shop2")}>Shop</li>
           </ul>
         </div>
 
         <div className="footer-legal">
           <h4>Legal</h4>
           <ul>
-            <li onClick={() => Router.push("/fa/legalnotice")}>Legal Notice</li>
-            <li onClick={() => Router.push("/fa/privacypolicy")}>
+            <li onClick={() => Router.push(z.root+"/legal-notice")}>Legal Notice</li>
+            <li onClick={() => Router.push(z.root+"/privacy-policy")}>
               Privacy Policy
             </li>
-            <li onClick={() => Router.push("/fa/termsofservice")}>
+            <li onClick={() => Router.push(z.root+"/terms-of-service")}>
               Terms of Service
             </li>
-            <li onClick={() => Router.push("/fa/shipping&return")}>
+            <li onClick={() => Router.push(z.root+"/shipping-and-returns")}>
               Shipping & Returns
             </li>
           </ul>
@@ -67,11 +67,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
       </div>
 
       <div className="footer-bottom">
-        {/* <img
-          src="https://cdn.ituring.ir/qeupload/mxjpqoAYwanzTCMcfYXx/r77gbavarubr85tkpie87n.svg"
-          alt="PayPal"
-          className="payment-icon"
-        /> */}
+       
         <a onClick={() => Router.push(z.root)}>
           <svg
             className="footer-end-logo"

@@ -11,25 +11,21 @@ const Collections: React.FC = () => {
     {
       src: "https://i.ibb.co/rRj2GzMp/04-home-718x1005-ebd0430f-4415-4469-8370-40774088653f.webp",
       alt: "BRACELETS",
-      href: "https://nazlisadeghi.com/collections/dresses",
       title: "BRACELETS",
     },
     {
       src: "https://i.ibb.co/RkvBjy0g/5x7-lowres-Gaia-Scallop-Earrings-Gold-1.webp",
       alt: "EARRINGS",
-      href: "https://nazlisadeghi.com/collections/jackets",
       title: "EARRINGS",
     },
     {
       src: "https://i.ibb.co/5WDgz1QW/03-home-718x1005-3363bab3-a27e-4e75-bbcd-6b2d0b68997f.webp",
       alt: "RINGS",
-      href: "https://nazlisadeghi.com/collections/tops",
       title: "RINGS",
     },
     {
       src: "https://i.ibb.co/v44xtYQ1/kinn-14k-gold-fine-jewelry-dear-kaia-iii-necklace-1.webp",
       alt: "NECKLACES",
-      href: "https://nazlisadeghi.com/collections/shoes",
       title: "NECKLACES",
     },
   ]

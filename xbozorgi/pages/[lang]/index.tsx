@@ -29,11 +29,11 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
         <picture>
           <source
             media="(max-width: 700px)"
-            srcSet="https://cdn.ituring.ir/qeupload/iT1R3mpqnf2rr6zpjE7K/0ham36hcv4jppn77ebxu55.jpg"
+            srcSet="\kinnpic\mobileheader.jpg"
           />
 
           <img
-            src="https://cdn.ituring.ir/qeupload/4c0dHPfz4fmB3EatD1kE/4myh5t0o9zezgov4epmcvp.webp"
+            src="\kinnpic\desktopheader.webp"
             alt="Hero Banner"
             className="w-full h-auto object-cover"
           />
@@ -66,7 +66,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
 
       <div className="hero-section">
         <img
-          src="https://cdn.ituring.ir/qeupload/4c0dHPfz4fmB3EatD1kE/c6rktv4fg1qbypikb5ednw.webp"
+          src="\kinnpic\DESKTOP_MID-HERO_FLASGHIP.webp"
           alt="Hero Banner"
           className="w-full object-cover md:block h-[50rem]"
         />
@@ -101,7 +101,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
 
       <div className="hero-section">
         <img
-          src="https://cdn.ituring.ir/qeupload/4c0dHPfz4fmB3EatD1kE/8n3uhzwdt9bmx10p5ed9oq.avif"
+          src="\kinnpic\ring.avif"
           alt="Hero Banner"
           className="w-full object-cover md:block h-[50rem]"
         />
@@ -131,7 +131,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
         className="relative w-full h-[20rem] sm:h-[25rem] md:h-[46rem] bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://cdn.ituring.ir/qeupload/4c0dHPfz4fmB3EatD1kE/s2cif95bjmmvzr50vqa4uf.webp')",
+            "url('/kinnpic/home_Press_home_Press_2880x100_desktop.webp')",
         }}
       >
         {/* فلش چپ */}
