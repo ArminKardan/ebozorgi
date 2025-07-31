@@ -66,7 +66,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
 
       <div className="hero-section">
         <img
-          src="\kinnpic\DESKTOP_MID-HERO_FLASGHIP.webp"
+          src="\kinnpic\bath.webp"
           alt="Hero Banner"
           className="w-full object-cover md:block h-[50rem]"
         />
