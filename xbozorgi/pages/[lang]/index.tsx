@@ -95,7 +95,7 @@ const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onL
           </em>
           <strong>. </strong>A companion to your memory,ㅤ <br-x /> made to last
           a lifetime, the kind you'll invest in <br-x /> and pass down." —
-          <em>Jennie Yoon, Founder</em>
+          <em>Asma Bozorgi, Founder</em>
         </div>
       </c-cc>
 
