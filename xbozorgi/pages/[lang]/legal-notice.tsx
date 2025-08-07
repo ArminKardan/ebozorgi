@@ -11,16 +11,7 @@ import { useRouter } from "next/router"
 
 export default (p) => Component(p, Page)
 
-const Page: PageEl = (
-  props: {} & { [key: string]: any },
-  refresh,
-  getProps,
-  onLoad,
-  onConnected,
-  dies,
-  isFront,
-  z
-) => {
+const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onLoad, onConnected, dies, isFront, z) => {
   const isIndex = z.path === z.root || z.path === z.root + "/en"
   const carouselRef = useRef<HTMLDivElement>(null)
 

@@ -8,16 +8,7 @@ import Layout from "@/frontend/components/Layout"
 
 export default (p) => Component(p, Page)
 
-const Page: PageEl = (
-  props: {} & { [key: string]: any },
-  refresh,
-  getProps,
-  onLoad,
-  onConnected,
-  dies,
-  isFront,
-  z
-) => {
+const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onLoad, onConnected, dies, isFront, z) => {
   return (
     <Layout>
       <div
