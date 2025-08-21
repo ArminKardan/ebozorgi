@@ -47,6 +47,10 @@ export default function App({ Component, pageProps }) {
     }
   } catch { }
 
+  if (props.session.code) {
+    return null
+  }
+
   let z = SSRGlobal(props.pageid)
 
   z.root = "/" + props.langcode;
@@ -139,7 +143,7 @@ export default function App({ Component, pageProps }) {
         <Prompt />
         <Component {...props} />
       </div>
-      {/* <QELoader /> */}
+      <QELoader />
     </Context.Provider>
   )
 }

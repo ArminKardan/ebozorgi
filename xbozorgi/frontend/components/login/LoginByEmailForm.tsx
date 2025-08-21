@@ -17,7 +17,7 @@ const validateEmail = (email) => {
 };
 
 
-const Page: PageEl = (props: {} & { [key: string]: any }, refresh, getProps, onLoad, onConnected, dies, isFront, z) => {
+const Page: PageEl = (props, refresh, getProps, onLoad, onConnected, dies, isFront, z) => {
 
     getProps(async (isFront) => {
         if (isFront) {
